@@ -3,21 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyclops.Model", "src\Cyclops.Model\Cyclops.Model.csproj", "{0906CD2E-7055-4F76-BAB2-C79C55A310CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cyclops.Model", "src\Cyclops.Model\Cyclops.Model.csproj", "{0906CD2E-7055-4F76-BAB2-C79C55A310CB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cyclops.Data.MySql", "src\Cyclops.Data.MySql\Cyclops.Data.MySql.csproj", "{18037152-53DC-4276-9016-F34F453428AD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cyclops.Web", "src\Cyclops.Web\Cyclops.Web.csproj", "{D5C5705C-95B8-4687-B3FF-FEA021F2B29D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyclops.Api", "src\Cyclops.Api\Cyclops.Api.csproj", "{8D274A09-3841-4F07-B5E6-6EF3A6F0B655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cyclops.Api", "src\Cyclops.Api\Cyclops.Api.csproj", "{8D274A09-3841-4F07-B5E6-6EF3A6F0B655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyclops.Api.Controllers", "src\Cyclops.Api.Controllers\Cyclops.Api.Controllers.csproj", "{B2F2C14A-0884-4DAE-A1FD-2E808A54CBB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cyclops.Api.Controllers", "src\Cyclops.Api.Controllers\Cyclops.Api.Controllers.csproj", "{B2F2C14A-0884-4DAE-A1FD-2E808A54CBB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyclops.Web.Controllers", "src\Cyclops.Web.Controllers\Cyclops.Web.Controllers.csproj", "{683E3A84-6489-47DA-8793-413D47611F78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cyclops.Web.Controllers", "src\Cyclops.Web.Controllers\Cyclops.Web.Controllers.csproj", "{683E3A84-6489-47DA-8793-413D47611F78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyclops.Data.Common", "src\Cyclops.Data.Common\Cyclops.Data.Common.csproj", "{82D07423-809F-497A-90FD-80B5074E9367}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cyclops.Data.Common", "src\Cyclops.Data.Common\Cyclops.Data.Common.csproj", "{82D07423-809F-497A-90FD-80B5074E9367}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyclops.Data.Abstractions", "src\Cyclops.Data.Abstractions\Cyclops.Data.Abstractions.csproj", "{18837EA8-6880-428A-9127-2EC3C8807307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cyclops.Data.Abstractions", "src\Cyclops.Data.Abstractions\Cyclops.Data.Abstractions.csproj", "{18837EA8-6880-428A-9127-2EC3C8807307}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3F5BFEAC-4460-467B-8CF7-EC84C6A6CC64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9BC239C8-A40A-4F85-9DF5-4308BB56C3CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{10999010-BF9C-4C9D-9203-6A6BB74FF1B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyclops.Data.Common.Test", "test\Cyclops.Data.Common.Test\Cyclops.Data.Common.Test.csproj", "{C1907DB8-E798-4986-9E9E-177BFF354CFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,9 +65,24 @@ Global
 		{18837EA8-6880-428A-9127-2EC3C8807307}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18837EA8-6880-428A-9127-2EC3C8807307}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18837EA8-6880-428A-9127-2EC3C8807307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1907DB8-E798-4986-9E9E-177BFF354CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1907DB8-E798-4986-9E9E-177BFF354CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1907DB8-E798-4986-9E9E-177BFF354CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1907DB8-E798-4986-9E9E-177BFF354CFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0906CD2E-7055-4F76-BAB2-C79C55A310CB} = {9BC239C8-A40A-4F85-9DF5-4308BB56C3CE}
+		{18037152-53DC-4276-9016-F34F453428AD} = {9BC239C8-A40A-4F85-9DF5-4308BB56C3CE}
+		{D5C5705C-95B8-4687-B3FF-FEA021F2B29D} = {10999010-BF9C-4C9D-9203-6A6BB74FF1B8}
+		{8D274A09-3841-4F07-B5E6-6EF3A6F0B655} = {10999010-BF9C-4C9D-9203-6A6BB74FF1B8}
+		{B2F2C14A-0884-4DAE-A1FD-2E808A54CBB5} = {9BC239C8-A40A-4F85-9DF5-4308BB56C3CE}
+		{683E3A84-6489-47DA-8793-413D47611F78} = {9BC239C8-A40A-4F85-9DF5-4308BB56C3CE}
+		{82D07423-809F-497A-90FD-80B5074E9367} = {9BC239C8-A40A-4F85-9DF5-4308BB56C3CE}
+		{18837EA8-6880-428A-9127-2EC3C8807307} = {9BC239C8-A40A-4F85-9DF5-4308BB56C3CE}
+		{C1907DB8-E798-4986-9E9E-177BFF354CFA} = {3F5BFEAC-4460-467B-8CF7-EC84C6A6CC64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20150CEC-66B2-4C24-B55C-3CDC61C2B4DB}
