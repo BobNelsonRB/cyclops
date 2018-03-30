@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cyclops.Data.Common\Cyclops.Data.Common.csproj" />
+    <ProjectReference Include="..\Cyclops.Model\Cyclops.Model.csproj" />
+  </ItemGroup>
+
+</Project>
